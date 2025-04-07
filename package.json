@@ -2,27 +2,22 @@
   "name": "skinstrade",
   "version": "1.0.0",
   "description": "Web Page to trade skins",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GiovanniPeirone/SkinsTrade.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Giovanni Peirone, Maximilliano Holmos",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/GiovanniPeirone/SkinsTrade/issues"
   },
-  "homepage": "https://github.com/GiovanniPeirone/SkinsTrade#readme",
-  "dependencies": {
-    "@types/express": "^5.0.1",
-    "@types/node": "^22.14.0",
-    "express": "^5.1.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
-  }
+  "homepage": "https://github.com/GiovanniPeirone/SkinsTrade#readme"
 }
